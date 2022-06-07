@@ -30,6 +30,8 @@ nodes:
 
 `node task.js`
 
+result:<br>
+
 ![result](/result.png)
 
 

@@ -1,12 +1,13 @@
 install docker
 install Kind
 
-➜ mkdir kind-cluster
-➜ cd kind-cluster
+`mkdir kind-cluster`
+`cd kind-cluster`
 
-➜ vim config.yaml
+`vim config.yaml`
 
-# three node (two workers) cluster config
+* input:
+
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
@@ -14,8 +15,14 @@ nodes:
 - role: worker
 - role: worker
 
-:wq
+`:wq`
 
 
+* create a three-node cluster:
+`kind create cluster --config=config.yaml`
 
-➜ kind create cluster --config=config.yaml
+*run the js code
+
+`node task.js`
+
+

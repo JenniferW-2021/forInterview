@@ -1,5 +1,5 @@
-install docker
-install Kind
+install docker  <br> 
+install Kind  <br> 
 
 `mkdir kind-cluster`
 `cd kind-cluster`

@@ -1,8 +1,8 @@
-install docker  <br> 
-install Kind  <br> 
+* install docker  <br> 
+* install Kind  <br> 
 
-`mkdir kind-cluster`
-`cd kind-cluster`
+`mkdir kind-cluster`<br> 
+`cd kind-cluster` <br> 
 
 `vim config.yaml`
 
@@ -24,7 +24,7 @@ nodes:
  
 `kind create cluster --config=config.yaml`
 
-run the js code
+* run the js code
 
 `node task.js`
 

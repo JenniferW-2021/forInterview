@@ -1,12 +1,15 @@
-* install docker  <br> 
-* install Kind  <br> 
+# Solution for Code Challenge Kubernetes Pod Evaluation Service
 
-`mkdir kind-cluster`<br> 
-`cd kind-cluster` <br> 
+## prerequisite
+
+* pre-install docker  <br> 
+* pre-install Kind  <br> 
+
+## Create a three-node cluster:
+
+* create config.yaml file
 
 `vim config.yaml`
-
-input:
 
 ```
 kind: Cluster
@@ -20,12 +23,13 @@ nodes:
 `:wq`
 
 
-* create a three-node cluster:
  
 `kind create cluster --config=config.yaml`
 
-* run the js code
+* run the js code to get the result
 
 `node task.js`
+
+
 
 

@@ -21,10 +21,10 @@ nodes:
 
 
 * create a three-node cluster:
-* 
+ 
 `kind create cluster --config=config.yaml`
 
-*run the js code
+run the js code
 
 `node task.js`
 
